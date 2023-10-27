@@ -12,7 +12,7 @@ services:
   test-runner:
     build:
       context: .
-      dockerfile: Docerfile
+      dockerfile: Dokcerfile
     depends_on:
       selenium-hub:
         condition: service_healthy
