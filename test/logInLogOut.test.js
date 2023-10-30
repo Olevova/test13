@@ -8,10 +8,10 @@ const makeScreenshot = require('../src/utils/makeScreenShot');
 describe("Log In and Log Out", async () => {
   console.log('new container');
     // add varibalses for testing
-    const URL = 'https://dev-frontend.colorjob.terenbro.com/login';
-    const urlForCheck = "https://dev-frontend.colorjob.terenbro.com/system/dashboard"
-    // const URL = 'http://localhost:4300/login';
-    // const urlForCheck = "http://localhost:4300/system/dashboard"
+    // const URL = 'https://dev-frontend.colorjob.terenbro.com/login';
+    // const urlForCheck = "https://dev-frontend.colorjob.terenbro.com/system/dashboard"
+    const URL = 'http://localhost:4300/login';
+    const urlForCheck = "http://localhost:4300/system/dashboard"
     const email = "superadmin@gmail.com";
     const password ="colorjob" ;
     let driverChrome = null
